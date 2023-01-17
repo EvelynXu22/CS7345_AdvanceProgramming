@@ -1,0 +1,29 @@
+{
+  "name": "chat-websocket-electron",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "connect": "^3.7.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "express": "^3.21.2",
+    "ws": "^8.11.0"
+  },
+  "description": "chat-websocket =============",
+  "main": "main.js",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.3",
+    "@electron-forge/maker-deb": "^6.0.3",
+    "@electron-forge/maker-rpm": "^6.0.3",
+    "@electron-forge/maker-squirrel": "^6.0.3",
+    "@electron-forge/maker-zip": "^6.0.3",
+    "electron": "^21.2.3"
+  },
+  "author": "Yiwen Xu",
+  "license": "MIT"
+}
+
